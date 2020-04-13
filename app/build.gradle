@@ -2,11 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 
 ext.versionMajor = 1
 ext.versionMinor = 0
-ext.versionPatch = 0
-ext.minimumSdkVersion = 15
+ext.versionPatch = 1
+ext.minimumSdkVersion = 16
 ext.versionClassifier = null
 ext.isSnapshot = false
 
@@ -92,6 +94,9 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.google.android.material:material:1.2.0-alpha03'
     kapt 'com.android.databinding:compiler:3.1.4'
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "725126939061",
+    "firebase_url": "https://phisical-alert.firebaseio.com",
+    "project_id": "phisical-alert",
+    "storage_bucket": "phisical-alert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725126939061:android:c4fd5a38212d3c4f8199fc",
+        "android_client_info": {
+          "package_name": "com.pembelajar.phisicalalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725126939061-58qrpeqn3nvds48agffos378p92idf98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pembelajar.phisicalalert",
+            "certificate_hash": "ee6c21b5824b258b78cac164a25ef46754ef5b70"
+          }
+        },
+        {
+          "client_id": "725126939061-ffabuuv4a9sqb54supl1gg7jqv0ajj0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsI7E1F4Ry_0QwiXBQV8YGeeFlCdLkeiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725126939061-ffabuuv4a9sqb54supl1gg7jqv0ajj0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
